@@ -1,0 +1,677 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Thu Mar 07 2024 18:28:09 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="65e5a4e84a93e0f60f474103" data-wf-site="65c3b9d4fd4293cf48f533ee">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta content="" name="description">
+  <meta content="" property="og:title">
+  <meta content="" property="og:description">
+  <meta content="" property="og:image">
+  <meta content="" property="twitter:title">
+  <meta content="" property="twitter:description">
+  <meta content="" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/invo-ventures.webflow.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <style>
+.cta-section {
+    background: linear-gradient(180deg, rgba(9, 9, 13, 0.00) 0%, #09090D 100%);
+}
+.slider-right-dark-overlay {
+    background: linear-gradient(270deg, #09090D 0%, rgba(9, 9, 13, 0.00) 100%);
+}
+.slider-right-white-overlay {
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.check-card-title:hover {
+    text-decoration: underline;
+}
+.slider-button-left {
+    display: none;
+}
+.check-slider-btn-left {
+    display: none;
+}
+.swiper-slide{
+-webkit-backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0);
+}
+.swiper-wrapper{
+-webkit-transform-style: preserve-3d;
+}
+.swiper-backface-hidden .swiper-slide {
+    height: auto !important;
+}
+@media only screen and (max-width: 575px) {
+    .swiper-backface-hidden .swiper-slide {
+        height: auto !important;
+    }
+    .swiper-horizontal>.swiper-scrollbar-1,
+    .swiper-scrollbar-1.swiper-scrollbar-horizontal {
+        bottom: -40px;
+    }
+    .swiper-scrollbar-1,
+    .swiper-scrollbar-1 {
+        display: block;
+        background: #262633 !important;
+        /* Set your desired background color */
+    }
+    .swiper-scrollbar-1 .swiper-scrollbar-drag {
+        background: #fff !important;
+        /* Set your desired drag handle color */
+    }
+    .swiper-horizontal>.swiper-scrollbar-2,
+    .swiper-scrollbar-2.swiper-scrollbar-horizontal {
+        bottom: -32px;
+    }
+    .swiper-scrollbar-2,
+    .swiper-scrollbar-2 {
+        display: block;
+        background: #ECECF2 !important;
+        /* Set your desired background color */
+    }
+    .swiper-scrollbar-2 .swiper-scrollbar-drag {
+        background: #09090D !important;
+        /* Set your desired drag handle color */
+    }
+}
+#left-button,
+#right-button {
+    display: none;
+}
+#check-eb-right-button,
+#check-eb-left-button {
+    display: none;
+}
+@media only screen and (min-width: 576px) {
+    /* Apply styles only on screens with a minimum width of 769px (non-mobile screens) */
+    .swiper-scrollbar {
+        display: none;
+        /* Hide the scrollbar on non-mobile screens */
+    }
+    #left-button,
+    #right-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #check-eb-right-button,
+    #check-eb-left-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.input-grp {
+    position: relative;
+}
+.input {
+    outline: none;
+}
+.w-input:focus,
+.w-select:focus {
+    border-color: #09090D !important;
+    outline: 0;
+}
+.placeholder {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    color: #64646f;
+    transition: 0.3s;
+    pointer-events: none;
+}
+.input:not(:placeholder-shown)+.placeholder,
+.input:focus+.placeholder {
+    top: 0px;
+    color: #09090D;
+}
+</style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+      <div class="container-1280 nav">
+        <a href="index.html" class="nav-logo-link w-inline-block"><img src="images/invo-logo.svg" loading="lazy" alt="invo logo" class="nav-icon"></a>
+        <nav role="navigation" class="nav-links w-nav-menu">
+          <a href="https://invotech.co/contact" class="button-primary nav-btn w-inline-block w-clearfix">
+            <div class="button-text">Contact Us</div><img src="images/Arrow_Up_Right_LG.svg" loading="lazy" alt="white-right-up-arrow" class="button-icon">
+          </a>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <header class="hero-section">
+        <div class="container-1280">
+          <div class="hero-content-wrapper">
+            <div data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cc54" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hero-left-block">
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cc55" href="https://invotech.co/" class="button-primary text-arrow-link w-inline-block w-clearfix">
+                <div class="left-icon-wrap"><img src="images/Arrow_Right_LG.svg" loading="lazy" style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="arrow-left" class="arrow-left _1"><img src="images/Arrow_Right_LG.svg" loading="lazy" style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="arrow-left" class="arrow-left _2"></div>
+                <div class="text-link">Back To Home</div>
+              </a>
+              <div class="hero-title-wrap">
+                <h1 class="hero-title w-dyn-bind-empty"></h1>
+                <a href="#form" class="button-primary hero-btn w-inline-block w-clearfix">
+                  <div class="button-text">Get this ebook</div><img src="images/Cloud_Download.svg" loading="lazy" alt="cloud-download" class="button-icon">
+                </a>
+              </div>
+            </div>
+            <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cc63-0f474103" data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cc63" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hero-right-block"><img src="images/iPad-Mini.png" loading="lazy" alt="" class="hero-ipad-img w-dyn-bind-empty">
+              <div class="marque-wrapper">
+                <div class="marque-wrap">
+                  <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="marque-items">
+                    <div class="marque-item"><img src="images/star.svg" loading="lazy" alt="black start" class="marque-img">
+                      <div class="marque-title">download for free</div>
+                    </div>
+                    <div class="marque-item"><img src="images/star.svg" loading="lazy" alt="black start" class="marque-img">
+                      <div class="marque-title">download for free</div>
+                    </div>
+                    <div class="marque-item"><img src="images/star.svg" loading="lazy" alt="black start" class="marque-img">
+                      <div class="marque-title">download for free</div>
+                    </div>
+                    <div class="marque-item"><img src="images/star.svg" loading="lazy" alt="black start" class="marque-img">
+                      <div class="marque-title">download for free</div>
+                    </div>
+                    <div class="marque-item"><img src="images/star.svg" loading="lazy" alt="black start" class="marque-img">
+                      <div class="marque-title">download for free</div>
+                    </div>
+                    <div class="marque-item"><img src="images/star.svg" loading="lazy" alt="black start" class="marque-img">
+                      <div class="marque-title">download for free</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cc80" style="opacity:0" class="slider-section">
+        <div class="slider-right-dark-overlay"></div>
+        <div class="slider-container">
+          <div class="slider-title-wrap">
+            <h2 style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ebook-slider-title">What Will I Learn From This eBook?</h2>
+          </div>
+          <div class="w-dyn-list">
+            <div role="list" class="w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <div id="ebook-card-swiper" class="slider-card-swiper">
+                  <div data-w-id="f7bda334-4807-ade8-fe9c-19e237b5aa5f" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="swiper-wrapper slider-list">
+                    <div class="swiper-slide">
+                      <div class="slide-content"><img src="images/Layers.svg" loading="lazy" alt="" class="learn-ebook-card-icon w-dyn-bind-empty">
+                        <h3 class="learn-ebook-card-title w-dyn-bind-empty"></h3>
+                        <p class="learn-ebook-card-text text-dark w-dyn-bind-empty"></p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slide-content"><img src="images/Layers.svg" loading="lazy" alt="" class="learn-ebook-card-icon w-dyn-bind-empty">
+                        <h3 class="learn-ebook-card-title w-dyn-bind-empty"></h3>
+                        <p class="learn-ebook-card-text text-dark w-dyn-bind-empty"></p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slide-content"><img src="images/Layers.svg" loading="lazy" alt="" class="learn-ebook-card-icon w-dyn-bind-empty">
+                        <h3 class="learn-ebook-card-title w-dyn-bind-empty"></h3>
+                        <p class="learn-ebook-card-text text-dark w-dyn-bind-empty"></p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slide-content"><img src="images/Layers.svg" loading="lazy" alt="" class="learn-ebook-card-icon w-dyn-bind-empty">
+                        <h3 class="learn-ebook-card-title w-dyn-bind-empty"></h3>
+                        <p class="learn-ebook-card-text text-dark w-dyn-bind-empty"></p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slide-content"><img src="images/Layers.svg" loading="lazy" alt="" class="learn-ebook-card-icon w-dyn-bind-empty">
+                        <h3 class="learn-ebook-card-title w-dyn-bind-empty"></h3>
+                        <p class="learn-ebook-card-text text-dark w-dyn-bind-empty"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-dyn-empty">
+              <div>No items found.</div>
+            </div>
+          </div>
+          <a id="left-button" href="#" class="slider-button-left w-inline-block"><img src="images/Arrow_Left_LG.svg" loading="lazy" alt="arrow-right" class="image"></a>
+          <a id="right-button" href="#" class="slider-button-right w-inline-block"><img src="images/Arrow_Left_LG.svg" loading="lazy" alt="arrow-right"></a>
+          <div class="swiper-scrollbar swiper-scrollbar-1"></div>
+        </div>
+      </section>
+      <section data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ccb1" class="ebook-card-section">
+        <div class="container-1140">
+          <div class="ebook-title-wrap">
+            <h2 style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ebook-title">Who Should <br>Read This eBook?</h2>
+          </div>
+          <div id="w-node-f7d0395e-a175-6e9e-d2cd-869dd2dd4b99-0f474103" class="w-dyn-list">
+            <div role="list" class="ebook-cards w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102ccb9-0f474103" data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ccb9" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ebook-card"><img src="images/Puzzle.svg" loading="lazy" alt="" class="card-icon w-dyn-bind-empty">
+                  <h3 class="card-title w-dyn-bind-empty"></h3>
+                  <p class="card-text w-dyn-bind-empty"></p>
+                </div>
+              </div>
+            </div>
+            <div class="w-dyn-empty">
+              <div>No items found.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cccb" class="slider-section white">
+        <div class="slider-container">
+          <div class="slider-title-wrap">
+            <h2 style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="check-eb-slider-title">Check Out<br>Other eBooks</h2>
+          </div>
+          <div class="w-dyn-list">
+            <div role="list" class="collection-list-2 w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <div id="swiper-wrapper" data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ccd3" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="swiper-wrapper slider-list">
+                  <div class="swiper-slide bg-white">
+                    <div class="slide-content pad-0">
+                      <div class="check-card-img-wrap"><img src="images/ebook-need-to-know-1.png" loading="lazy" alt="" class="check-card-img w-dyn-bind-empty"></div>
+                      <div class="check-card-body">
+                        <div class="w-dyn-list">
+                          <div role="list" class="check-card-tag-wrap w-dyn-items">
+                            <div role="listitem" class="w-dyn-item">
+                              <div class="tag">
+                                <div class="tag-text w-dyn-bind-empty"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#" class="title-link-wrap w-inline-block">
+                          <h3 class="check-card-title w-dyn-bind-empty"></h3>
+                        </a>
+                        <a href="#" class="check-links-block w-inline-block w-clearfix">
+                          <div class="link-text">See more</div><img src="images/Arrow_Up_Right_LG_1.svg" loading="lazy" alt="black right arrow up" class="link-icon">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-dyn-empty">
+              <div>No items found.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="5bfc101e-7006-2b22-845d-1936093a580a" class="slider-section white hide">
+        <div class="slider-container">
+          <div class="slider-title-wrap">
+            <h2 style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="check-eb-slider-title">Check Out<br>Other eBooks</h2>
+          </div>
+          <div class="w-dyn-list">
+            <div role="list" class="w-dyn-items w-row">
+              <div role="listitem" class="w-dyn-item w-col w-col-4">
+                <div id="ebook-card-swiper-2" class="slider-card-swiper">
+                  <div id="swiper-wrapper" data-w-id="5bfc101e-7006-2b22-845d-1936093a5812" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="swiper-wrapper slider-list">
+                    <div class="swiper-slide bg-white">
+                      <div class="slide-content pad-0">
+                        <div class="check-card-img-wrap"><img src="images/ebook-need-to-know-1.png" loading="lazy" alt="" class="check-card-img w-dyn-bind-empty"></div>
+                        <div class="check-card-body">
+                          <div class="check-card-tag-wrap">
+                            <div class="tag">
+                              <div class="tag-text">CTO</div>
+                            </div>
+                            <div class="tag">
+                              <div class="tag-text">Product Manager</div>
+                            </div>
+                          </div>
+                          <a href="#" class="title-link-wrap w-inline-block">
+                            <h3 class="check-card-title w-dyn-bind-empty"></h3>
+                          </a>
+                          <a href="#" class="check-links-block w-inline-block w-clearfix">
+                            <div class="link-text">See more</div><img src="images/Arrow_Up_Right_LG_1.svg" loading="lazy" alt="black right arrow up" class="link-icon">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-dyn-empty">
+              <div>No items found.</div>
+            </div>
+          </div>
+          <a id="check-eb-left-button" href="#" class="check-slider-btn-left w-inline-block"><img src="images/Arrow_Left_LG.svg" loading="lazy" alt="arrow-right" class="image"></a>
+          <a id="check-eb-right-button" href="#" class="check-slider-btn-right w-inline-block"><img src="images/Arrow_Left_LG.svg" loading="lazy" alt="arrow-right"></a>
+          <div class="swiper-scrollbar swiper-scrollbar-2"></div>
+        </div>
+        <div class="slider-right-white-overlay"></div>
+      </section>
+      <section id="form" class="form-section">
+        <div class="container-1140">
+          <div data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cd48" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="form-title-wrap">
+            <h2 class="form-title">Download This<br>eBook Now</h2>
+            <p class="form-text">Download this eBook and become an online marketplace expert.</p>
+          </div>
+          <div id="ebook-form" class="ebook-form-wrapper w-form">
+            <form method="get" class="ebook-form" autocomplete="off" data-wf-flow="efa72e20a59aac6fef5a6f5a" name="wf-form-E-Book-Form" data-name="E-Book Form" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cd50" id="wf-form-E-Book-Form" data-wf-page-id="65e5a4e84a93e0f60f474103" data-wf-element-id="2ee2ecb3-040e-4d64-04c9-6cf82102cd50">
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd51-0f474103" class="input-grp"><input class="input w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="" type="text" id="First-Name"><label for="first-name" class="placeholder">First Name</label></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd55-0f474103" class="input-grp"><input class="input w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="" type="text" id="Last-Name"><label for="last-name" class="placeholder">Last Name</label></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd59-0f474103" class="input-grp"><input class="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="" type="email" id="Email" required=""><label for="email" class="placeholder">Email</label></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd5d-0f474103" class="input-grp"><input class="input w-input" maxlength="256" name="Your-Role" data-name="Your Role" placeholder="" type="text" id="Your-Role"><label for="your-role" class="placeholder">Your Role</label></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd61-0f474103" class="input-grp"><input class="input w-input" maxlength="256" name="Company" data-name="Company" placeholder="" type="text" id="Company"><label for="company" class="placeholder">Company</label></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd65-0f474103" class="empty-row"></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd66-0f474103" class="agree-checkbox-wrap"><label class="w-checkbox checkbox-wrap"><input type="checkbox" name="I-Agree-of-Personal-Data-Share" id="I-Agree-of-Personal-Data-Share" data-name="I Agree Of Personal Data Share" required="" class="w-checkbox-input checkbox"><span class="checkbox-label w-form-label" for="I-Agree-of-Personal-Data-Share">I hereby grant consent for the processing of my personal data</span></label></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd6b-0f474103" class="empty-row"></div>
+              <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd6c-0f474103" class="submit-btn-wrap"><input type="submit" data-wait="Please wait..." class="button-primary submit-btn w-button" value="Get this ebook"><img loading="lazy" src="images/Cloud_Download.svg" alt="cloud-download" class="icon"></div>
+            </form>
+            <div class="success-message w-form-done">
+              <div class="message-text">Thank you! Your eBook submission has been received!</div>
+            </div>
+            <div class="error-message w-form-fail">
+              <div class="error-msg-text">Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cd75" class="cta-section"><img src="images/cta-bg.jpg" loading="lazy" style="opacity:0.4" sizes="100vw" alt="team invo cta image" srcset="images/cta-bg-p-500.jpg 500w, images/cta-bg-p-800.jpg 800w, images/cta-bg-p-1080.jpg 1080w, images/cta-bg-p-1600.jpg 1600w, images/cta-bg-p-2000.jpg 2000w, images/cta-bg-p-2600.jpg 2600w, images/cta-bg.jpg 2880w" class="cta-bg">
+        <a href="https://invotech.co/contact" class="button-primary cta-btn w-inline-block w-clearfix">
+          <div class="button-text">Contact Us</div><img src="images/Arrow_Up_Right_LG.svg" loading="lazy" alt="white-right-up-arrow" class="button-icon large-arrow">
+        </a>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-1140">
+        <div class="footer-top">
+          <a href="index.html" class="footer-logo-link w-inline-block"><img src="images/invo-logo.svg" loading="lazy" alt="invo logo" class="footer-logo"></a>
+        </div>
+        <div class="footer-middle">
+          <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd81-0f474103" class="footer-company-info-col">
+            <a href="mailto:hello@invotech.co" class="address-mail">hello@invotech.co</a>
+            <a href="tel:+48571321648" class="address-phone">+48 571 321 648</a>
+            <div class="company-location">Prosta 20, Mennica Tower<br>00-850  Warsaw</div>
+            <div class="company-id">REGON: 366093966<br>NIP: 5361925785</div>
+          </div>
+          <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd8e-0f474103" class="category-column">
+            <h3 class="category-tite">Invo</h3>
+            <div class="category-link-block">
+              <a href="https://invotech.co/about-us" class="category-link">About Us</a>
+              <a href="https://invotech.co/services" class="category-link">Services</a>
+              <a href="https://invotech.co/case-study" class="category-link">Case Study</a>
+              <a href="https://invotech.co/blog" class="category-link">Blog</a>
+              <a href="https://invotech.co/contact" class="category-link">Contact Us</a>
+            </div>
+          </div>
+          <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cd9c-0f474103" class="category-column">
+            <h3 class="category-tite">Services</h3>
+            <div class="category-link-block">
+              <a href="https://invotech.co/services/product-design" class="category-link">Product Design</a>
+              <a href="https://invotech.co/services/web-development" class="category-link">Web Development</a>
+              <a href="https://invotech.co/services/mobile-development" class="category-link">Mobile Development</a>
+              <a href="https://invotech.co/services/ecommerce-development" class="category-link">Ecommerce Development</a>
+              <a href="https://invotech.co/services/backend-development" class="category-link">Backend Development</a>
+              <a href="#https://invotech.co/services/software-architecture" class="category-link">Software architecture</a>
+              <a href="https://invotech.co/services/custom-software-development" class="category-link">Custom Software <br>Development</a>
+            </div>
+          </div>
+          <div id="w-node-_2ee2ecb3-040e-4d64-04c9-6cf82102cdb0-0f474103" class="category-column">
+            <h3 class="category-tite">Technology</h3>
+            <div class="div-block">
+              <div class="category-link-block">
+                <a href="https://invotech.co/react-native.php" class="category-link">React</a>
+                <a href="https://invotech.co/case-study#" class="category-link">Vue.is</a>
+                <a href="https://invotech.co/case-study#" class="category-link">TypeScript</a>
+                <a href="https://invotech.co/case-study#" class="category-link">Laravel</a>
+                <a href="https://invotech.co/case-study#" class="category-link">Node.js</a>
+                <a href="https://invotech.co/technologies/flutter-development" class="category-link">Flutter</a>
+                <a href="https://invotech.co/android-development.php" class="category-link">Android</a>
+              </div>
+              <div class="category-link-block">
+                <a href="https://invotech.co/ios-development" class="category-link">IOS</a>
+                <a href="https://invotech.co/case-study#" class="category-link">Wordpres</a>
+                <a href="https://invotech.co/case-study#" class="category-link">Magento</a>
+                <a href="https://invotech.co/case-study#" class="category-link">Headless</a>
+                <a href="https://invotech.co/case-study#" class="category-link">PHP</a>
+                <a href="https://invotech.co/case-study#" class="category-link">.Net</a>
+              </div>
+            </div>
+          </div>
+          <div class="category-column">
+            <h3 class="category-tite">Industries</h3>
+            <div class="category-link-block">
+              <a href="https://invotech.co/industries/healthcare" class="category-link">Healthcare</a>
+              <a href="https://invotech.co/industries/education" class="category-link">Education</a>
+              <a href="https://invotech.co/industries/insurance" class="category-link">Insurance</a>
+              <a href="https://invotech.co/industries/ecommerce" class="category-link">Ecommerce</a>
+              <a href="https://invotech.co/industries/fashion" class="category-link">Fashion</a>
+              <a href="https://invotech.co/industries/beauty-wellness" class="category-link">Beauty &amp; wellness</a>
+              <a href="https://invotech.co/industries/hr-tech" class="category-link">HR-Tech</a>
+            </div>
+          </div>
+          <div class="category-column">
+            <h3 class="category-tite">Resources</h3>
+            <div class="category-link-block">
+              <a href="https://invotech.co/how-to-use-ux-techniques" class="category-link">How to Use UX <br>Techniques</a>
+              <a href="https://invotech.co/how-to-put-your-idea-into-action" class="category-link">How to Put Your <br>Idea Into Action</a>
+              <a href="https://invotech.co/cross-platform-development-vs-native-development" class="category-link">The Ultimate Comparision</a>
+              <a href="https://invotech.co/resources#ux-canvas" class="category-link">4UX Canvas</a>
+              <a href="https://invotech.co/resources#strategic-thinking" class="category-link">Strategic Thinking</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-bottom">
+          <div class="company-copyright-wrap">
+            <div class="copyright-text">Made in 2024 by INVO • All rights reserved</div>
+          </div>
+          <div class="footer-social-link">
+            <div class="company-social-link-block">
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cdfb" href="https://dribbble.com/INVO" target="_blank" class="company-social-link w-inline-block"><img src="images/dribbble.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo dribbble  link" class="social-link _1"><img src="images/dribbble.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo dribbble  link" class="social-link _2"></a>
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102cdfe" href="https://www.behance.net/invotechnologies" target="_blank" class="company-social-link w-inline-block"><img src="images/behance.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo behance link" class="social-link _1"><img src="images/behance.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo behance link" class="social-link _2"></a>
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ce01" href="https://www.facebook.com/INVO.Technologies/" target="_blank" class="company-social-link w-inline-block"><img src="images/facebook.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo facebook link" class="social-link _1"><img src="images/facebook.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo facebook link" class="social-link _2"></a>
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ce04" href="https://www.linkedin.com/company/invotechnologies" target="_blank" class="company-social-link w-inline-block"><img src="images/LinkedIn.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo linkedin link" class="social-link _1"><img src="images/LinkedIn.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo linkedin link" class="social-link _2"></a>
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ce07" href="https://www.instagram.com/invotechnologies/" target="_blank" class="company-social-link w-inline-block"><img src="images/instagram.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo instagram link" class="social-link _1"><img src="images/instagram.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo instagram link" class="social-link _2"></a>
+              <a data-w-id="2ee2ecb3-040e-4d64-04c9-6cf82102ce0a" href="https://twitter.com/INVOtech_co" target="_blank" class="company-social-link w-inline-block"><img src="images/twitter.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo x link" class="social-link _1"><img src="images/twitter.svg" loading="lazy" style="-webkit-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="invo x link" class="social-link _2"></a>
+            </div>
+            <div class="company-magazine"><img src="images/forbes.svg" loading="lazy" alt="invo forbes"><img src="images/inn-poland.svg" loading="lazy" alt="inn:poland:pl"><img src="images/start-up.svg" loading="lazy" alt="invo startup"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65c3b9d4fd4293cf48f533ee" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+$('#wf-form-E-Book-Form')
+.attr('redirect', '')
+.attr('data-redirect', '');
+</script>
+  <script>
+var mySwiper = new Swiper('#ebook-card-swiper', {
+  slidesPerView: 3,
+  slidesPerGroup: 1,
+  spaceBetween: 16,
+  navigation: {
+    nextEl: '#right-button',
+    prevEl: '#left-button',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar-1',
+  },
+  on: {
+    slideChange: function () {
+      // Check if the screen width is greater than or equal to 576px (adjust this breakpoint as needed)
+      if (window.innerWidth >= 576) {
+        // Check if the current active slide index is 0 (first slide)
+        if (this.activeIndex === 0) {
+          // Hide the left arrow button
+          $('.slider-button-left').hide();
+        } else {
+          // Show the left arrow button
+          $('.slider-button-left').show();
+        }
+        // Check if the current active slide index is the last one
+        if (this.isEnd) {
+          // Hide the right arrow button
+          $('.slider-button-right').hide();
+        } else {
+          // Show the right arrow button
+          $('.slider-button-right').show();
+        }
+      } else {
+        // Hide the left and right arrow buttons on mobile
+        $('.slider-button-left, .slider-button-right').hide();
+      }
+    },
+    init: function () {
+      // Check if the initial active slide index is 0 (first slide) and the screen width is greater than or equal to 576px
+      if (window.innerWidth >= 576 && this.activeIndex === 0) {
+        // Hide the left arrow button initially
+        $('.slider-button-left').hide();
+      }
+    },
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1.1,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    400: {
+      slidesPerView: 1.3,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    420: {
+      slidesPerView: 1.3,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    480: {
+      slidesPerView: 1.5,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    768: {
+      slidesPerView: 1.8,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    992: {
+      slidesPerView: 3,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+      allowTouchMove: false, // Disable touch move on desktop
+      on: {
+        init: function () {
+          // Check if the screen width is greater than or equal to 992px (desktop)
+          if (window.innerWidth >= 992) {
+            // Disable scrollbar on desktop
+            this.scrollbar.disable();
+          }
+        },
+      },
+    }
+  }
+});
+</script>
+  <!-- 
+<script>
+var mySwiper2 = new Swiper('#ebook-card-swiper-2', {
+  slidesPerView: 3,
+  slidesPerGroup: 1,
+  spaceBetween: 16,
+  navigation: {
+    nextEl: '#check-eb-right-button',
+    prevEl: '#check-eb-left-button',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar-2',
+  },
+  on: {
+    slideChange: function () {
+      // Check if the screen width is greater than or equal to 576px (adjust this breakpoint as needed)
+      if (window.innerWidth >= 576) {
+        // Check if the current active slide index is 0 (first slide)
+        if (this.activeIndex === 0) {
+          // Hide the left arrow button
+          $('.check-slider-btn-left').hide();
+        } else {
+          // Show the left arrow button
+          $('.check-slider-btn-left').show();
+        }
+        // Check if the current active slide index is the last one
+        if (this.isEnd) {
+          // Hide the right arrow button
+          $('.check-slider-btn-right').hide();
+        } else {
+          // Show the right arrow button
+          $('.check-slider-btn-right').show();
+        }
+      } else {
+        // Hide the left and right arrow buttons on mobile
+        $('.check-slider-btn-left, .check-slider-btn-right').hide();
+      }
+    },
+    init: function () {
+      // Check if the initial active slide index is 0 (first slide) and the screen width is greater than or equal to 576px
+      if (window.innerWidth >= 576 && this.activeIndex === 0) {
+        // Hide the left arrow button initially
+        $('.check-slider-btn-left').hide();
+      }
+    },
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1.1,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    400: {
+      slidesPerView: 1.3,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    420: {
+      slidesPerView: 1.3,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    480: {
+      slidesPerView: 1.5,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    768: {
+      slidesPerView: 1.8,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+    },
+    992: {
+      slidesPerView: 3,
+      slidesPerGroup: 1,
+      spaceBetween: 16,
+      allowTouchMove: false, // Disable touch move on desktop
+      on: {
+        init: function () {
+          // Check if the screen width is greater than or equal to 992px (desktop)
+          if (window.innerWidth >= 992) {
+            // Disable scrollbar on desktop
+            this.scrollbar.disable();
+          }
+        },
+      },
+    }
+  }
+});
+</script>!-></body></html> --></body></html>
